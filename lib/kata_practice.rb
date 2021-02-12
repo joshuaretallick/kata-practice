@@ -1,3 +1,7 @@
 def bonus_time(salary, bonus)
-  return "$10000"
+  if bonus == false
+    return "$10000"
+  else
+    return "$100000"
+  end
 end
