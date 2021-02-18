@@ -12,7 +12,9 @@ def xor(a,b)
     false
   elsif a == true && b == false
     true
-  elsif a == true && b == true 
+  elsif a == true && b == true
     false
+  else
+    true
   end
 end

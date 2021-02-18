@@ -26,8 +26,12 @@ describe "#xor" do
     expect(xor(true, false)).to eq true
   end
 
+  it "returns true if one of the expressions is true" do
+    expect(xor(false, true)).to eq true
+  end
+
   it "returns false if more than one of the expressions is true" do
     expect(xor(true, true)).to eq false
   end
-  
+
 end
