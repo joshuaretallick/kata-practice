@@ -8,5 +8,9 @@
 # end
 
 def xor(a,b)
-  false
+  if a == false && b == false
+    false
+  elsif a == true || b == false
+    true
+  end
 end

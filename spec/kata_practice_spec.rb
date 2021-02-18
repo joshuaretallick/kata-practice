@@ -21,4 +21,12 @@ describe "#xor" do
   it "returns false if none of the expressions are true" do
     expect(xor(false, false)).to eq false
   end
+
+  it "returns true if one of the expressions is true" do
+    expect(xor(true, false)).to eq true
+  end
+
+  # it "returns false if more than one of the expressions is true" do
+  #   expect(xor(true, true)).to eq false
+  # end
 end
