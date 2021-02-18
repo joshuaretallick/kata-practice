@@ -6,3 +6,7 @@
 #     return "$#{bonus_pay}"
 #   end
 # end
+
+def xor(a,b)
+  false
+end

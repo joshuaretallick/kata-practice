@@ -1,4 +1,4 @@
-# require 'kata_practice'
+require 'kata_practice'
 #
 # describe "#bonus_time" do
 #   it "return the inputted salary (10000) if no bonus is false" do
@@ -17,3 +17,8 @@
 #     expect(bonus_time(25000, true)).to eq "$250000"
 #   end
 # end
+describe "#xor" do
+  it "returns false if none of the expressions are true" do
+    expect(xor(false, false)).to eq false
+  end
+end
