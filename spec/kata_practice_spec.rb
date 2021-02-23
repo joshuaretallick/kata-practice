@@ -33,5 +33,9 @@ require 'kata_practice'
 #   it "returns false if more than one of the expressions is true" do
 #     expect(xor(true, true)).to eq false
 #   end
-
+describe "#arrayMadness" do
+  it "returns false if square array total 1 is < cube array total 2" do
+    expect(arrayMadness([1], [1])).to eq false
+  end
+  
 end

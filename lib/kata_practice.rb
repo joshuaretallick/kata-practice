@@ -18,3 +18,7 @@
 #     true
 #   end
 # end
+
+def arrayMadness(a, b)
+  false
+end
