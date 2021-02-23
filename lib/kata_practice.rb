@@ -20,5 +20,23 @@
 # end
 
 def arrayMadness(a, b)
-  false
+  sum_a = 0
+  sum_b = 0
+
+  a.each do |i|
+    sum_a += i
+  end
+  p sum_a
+
+  b.each do |i|
+    sum_b += i
+  end
+  p sum_b
+
+  if sum_a > sum_b
+    true
+  else
+    false
+  end
+
 end
