@@ -42,4 +42,12 @@ describe "#arrayMadness" do
     expect(arrayMadness([2], [1])).to eq true
   end
 
+  it "returns false if square array total 1 is < cube array total 2" do
+    expect(arrayMadness([1], [2])).to eq false
+  end
+
+  it "returns true if square array total 1 is > cube array total 2" do
+    expect(arrayMadness([2, 1], [1, 1])).to eq true
+  end
+
 end

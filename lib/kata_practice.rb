@@ -24,12 +24,14 @@ def arrayMadness(a, b)
   sum_b = 0
 
   a.each do |i|
-    sum_a += i
+    x = i ** 2
+    sum_a += x
   end
   p sum_a
 
   b.each do |i|
-    sum_b += i
+    x = i ** 3
+    sum_b += x
   end
   p sum_b
 
