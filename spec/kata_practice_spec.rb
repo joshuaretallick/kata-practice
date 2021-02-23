@@ -50,4 +50,16 @@ describe "#arrayMadness" do
     expect(arrayMadness([2, 1], [1, 1])).to eq true
   end
 
+  it "returns false if square array total 1 is < cube array total 2" do
+    expect(arrayMadness([1, 1], [2, 9])).to eq false
+  end
+
+  it "returns true if square array total 1 is > cube array total 2" do
+    expect(arrayMadness([1, 2, 3, 4, 5], [2, 2, 2, 2, 2, 2, 1, 1, 1])).to eq true
+  end
+
+  it "returns false if square array total 1 is < cube array total 2" do
+    expect(arrayMadness([2, 4, 6, 8, 10, 12, 14], [1, 3, 5, 7, 9, 11, 13])).to eq false
+  end
+
 end

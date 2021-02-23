@@ -27,13 +27,11 @@ def arrayMadness(a, b)
     x = i ** 2
     sum_a += x
   end
-  p sum_a
 
   b.each do |i|
     x = i ** 3
     sum_b += x
   end
-  p sum_b
 
   if sum_a > sum_b
     true
