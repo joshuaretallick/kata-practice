@@ -1,3 +1,3 @@
 def switcheroo(input)
-  'a'
+  input
 end
