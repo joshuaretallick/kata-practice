@@ -7,14 +7,14 @@
 #   end
 # end
 
-def xor(a,b)
-  if a == false && b == false
-    false
-  elsif a == true && b == false
-    true
-  elsif a == true && b == true
-    false
-  else
-    true
-  end
-end
+# def xor(a,b)
+#   if a == false && b == false
+#     false
+#   elsif a == true && b == false
+#     true
+#   elsif a == true && b == true
+#     false
+#   else
+#     true
+#   end
+# end
