@@ -6,4 +6,8 @@ describe "#array_diff" do
     expect(array_diff([1],[])).to eq [1]
   end
 
+  it "returns new array if a & b do not share any values" do
+    expect(array_diff([1,2],[3])).to eq [1,2,3]
+  end
+
 end

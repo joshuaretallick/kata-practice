@@ -1,3 +1,15 @@
 def array_diff(a, b)
-  a
+  
+  new_array = []
+
+  a.each do |x|
+    new_array << x
+  end
+
+  b.each do |x|
+    new_array << x
+  end
+
+  new_array
+
 end
