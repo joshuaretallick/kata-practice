@@ -14,6 +14,7 @@ Example Output
 Test.assert_equals(array_diff([1,2], [1]), [2], "a was [1,2], b was [1], expected [2]")
 
 INPUT          |     OUTPUT
+([1],[])       |     [1]
 ([1,2],[1])    |     [2]
 ([1,2],[3])    |     [1,2,3]
 ([1,2],[3, 2]) |     [1,2,3]
