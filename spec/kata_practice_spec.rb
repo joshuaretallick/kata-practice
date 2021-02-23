@@ -14,4 +14,12 @@ describe "#switcheroo" do
     expect(switcheroo("c")).to eq "c"
   end
 
+  it "returns 'ac' when inputted" do
+    expect(switcheroo("ac")).to eq "ac"
+  end
+
+  it "returns 'bc' when inputted" do
+    expect(switcheroo("bc")).to eq "bc"
+  end
+
 end
