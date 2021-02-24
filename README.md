@@ -1,18 +1,7 @@
-https://www.codewars.com/kata/57f759bb664021a30300007d/train/ruby
+Leap Year:
 
-Given a string made up of letters a, b, and/or c, switch the position of letters a and b (change a to b and vice versa). Leave any incidence of c untouched.
-
-Example:
-
-'acb' --> 'bca'
-'aabacbaa' --> 'bbabcabb'
-
-INPUT       |     OUTPUT  
-abc         |       bac
-aaabcc      |       baaacc
-a           |       a
-b           |       b
-c           |       c
-ab          |       ba
-ac          |       ac
-bc          |       bc 
+INPUT       |       OUTPUT
+800         |       true (divisible by 400)
+500         |       false (divisible by 100 BUT NOT 400)
+104         |       true (divisible by 4 BUT NOT 100)
+5           |       false (NOT divisible by 4)
