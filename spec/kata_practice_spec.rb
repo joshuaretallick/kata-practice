@@ -9,4 +9,10 @@ describe "#leapyear" do
     expect(leapyear(500)).to eq false
   end
 
+  it "returns true when input is 104 because it is a leapyear" do
+    expect(leapyear(104)).to eq true
+  end
+
+  # 104         |       true (divisible by 4 BUT NOT 100)
+
 end

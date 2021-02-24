@@ -1,5 +1,7 @@
 def leapyear(year)
-  if year == 800
+  if year % 4 == 0 && year % 100 != 0
+    true
+  elsif year % 400 == 0
     true
   else
     false
