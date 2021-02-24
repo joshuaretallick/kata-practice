@@ -17,4 +17,8 @@ describe "#leapyear" do
     expect(leapyear(5)).to eq false
   end
 
+  it "raises an error if input is empty" do
+    expect { leapyear("Hello") }.to raise_error "User must input a number"
+  end
+
 end
