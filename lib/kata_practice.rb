@@ -1,12 +1,7 @@
-def leapyear(year)
-
-  raise "User must input a number" if year.is_a?(Integer) == false
-
-  if year % 4 == 0 && year % 100 != 0
-    true
-  elsif year % 400 == 0
-    true
-  else
-    false
-  end
+def centuryFromYear(year)
+    if year % 100 == 0
+        return year / 100
+    else
+        return (year / 100) + 1
+    end
 end
