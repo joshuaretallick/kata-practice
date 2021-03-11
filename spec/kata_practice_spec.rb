@@ -1,9 +1,17 @@
 require 'kata_practice'
 
-describe "#adjacentElementsProduct" do
+describe "#shapeArea" do
 
-  it "returns the largest product from a pair of adjacent elements in an array" do
-    expect(adjacentElementsProduct([3, 6, -2, -5, 7, 3])).to eq 21
+  it "returns the area of the interesting polygon" do
+    expect(shapeArea(2)).to eq 5
+  end
+
+  it "returns the area of the interesting polygon" do
+    expect(shapeArea(1)).to eq 1
+  end
+
+  it "returns the area of the interesting polygon" do
+    expect(shapeArea(3)).to eq 13
   end
 
 end

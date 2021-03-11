@@ -1,7 +1,3 @@
-def adjacentElementsProduct(inputArray)
-  productArray = []
-  (inputArray.length - 1).times do |i|
-    productArray << inputArray[i] * inputArray [i + 1]
-  end
-  return productArray.max
+def shapeArea(n)
+  n ** 2 + (n-1) ** 2
 end
