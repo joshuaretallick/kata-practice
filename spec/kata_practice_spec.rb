@@ -1,17 +1,9 @@
 require 'kata_practice'
 
-describe "#checkPalindrome" do
+describe "#adjacentElementsProduct" do
 
-  it "returns true if the string reversed is the same as it is forwards" do
-    expect(checkPalindrome("aabaa")).to eq true
-  end
-
-  it "returns false if the string reversed is not the same as it is forwards" do
-    expect(checkPalindrome("abac")).to eq false
-  end
-
-  it "returns true if the string reversed is the same as it is forwards even for single letters" do
-    expect(checkPalindrome("a")).to eq true
+  it "returns the largest product from a pair of adjacent elements in an array" do
+    expect(adjacentElementsProduct([3, 6, -2, -5, 7, 3])).to eq 21
   end
 
 end
