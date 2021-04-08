@@ -1,3 +1,3 @@
-def shapeArea(n)
-  n ** 2 + (n-1) ** 2
+def square_sum(numbers)
+  9
 end
